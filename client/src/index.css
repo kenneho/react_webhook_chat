@@ -31,11 +31,11 @@ html, body, #root, .main_grid, main {
     flex-direction: column;
 }
 
-.home > .chat_row {
+.home > .chat_area {
   flex: 9;
-  overflow: auto;
   margin-left: 20%;
   margin-right: 20%;
+  overflow: scroll;
 }
 
 .home > .input_row {

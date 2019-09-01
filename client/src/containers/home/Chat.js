@@ -24,6 +24,13 @@ class Chat extends React.Component {
     });
   };
 
+  componentDidUpdate() {
+    var chat_area = document.getElementById("chat");
+    if (chat_area != null) {
+      chat_area.scrollTop = chat_area.scrollHeight;
+    }
+  }
+
   render() {
     let author = this.state.new_chat_message["author"];
     let message = this.state.new_chat_message["message"];
@@ -52,7 +59,7 @@ class Chat extends React.Component {
     )
 
     return (
-      <div className="chat_row">
+      <div className="chat_area" id="chat">
         <h1>Chat</h1>
         {chat_elements}
       </div>
