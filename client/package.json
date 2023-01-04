@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "prettier": "1.18.2",
-    "react-scripts": "2.1.8"
+    "react-scripts": "5.0.1"
   },
   "dependencies": {
     "@material-ui/core": "^4.3.2",
@@ -28,7 +28,7 @@
     "redux-thunk": "2.3.0",
     "sanitize.css": "7.0.3",
     "serve": "10.1.2",
-    "simple-flexbox": "^2.2.1"
+    "simple-flexbox": "^2.3.3"
   },
   "browserslist": [
     ">0.2%",
